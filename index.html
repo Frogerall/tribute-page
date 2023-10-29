@@ -12,15 +12,23 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="navbar">
         <div class="nav-brand"><a href="#nav-logo">Nav Logo</a></div>
-        <ul class="nav-menu">
-          <li class="nav-lst"><a href="#nav-link">Home</a></li>
-          <li class="nav-lst"><a href="#nav-link">Products</a></li>
-          <li class="nav-lst"><a href="#nav-link">Articles</a></li>
-          <li class="nav-lst"><a href="#nav-link">News</a></li>
-          <li class="nav-lst"><a href="#nav-link">About us</a></li>
-        </ul>
+        <div class="nav-menu">
+          <div class="hide">
+            <i class="bi bi-list"></i>
+          </div>
+
+          <a href="#nav-link" class="nav-link">Home</a>
+
+          <a href="#nav-link" class="nav-link">Products</a>
+
+          <a href="#nav-link" class="nav-link">Articles</a>
+
+          <a href="#nav-link" class="nav-link">News</a>
+
+          <a href="#nav-link" class="nav-link">About us</a>
+        </div>
         <div class="nav-toggler">
           <i class="bi bi-list"></i>
         </div>
@@ -105,7 +113,7 @@
       </section>
       <section class="review">
         <div class="content-wrap">
-          <div class="profile-card1">
+          <div class="profile card1">
             <div class="img-wrapper">
               <img src="" alt="" />
               <p>Author name <span class="stars">stars here</span></p>
@@ -116,7 +124,7 @@
               exercitationem placeat.
             </p>
           </div>
-          <div class="profile-card2">
+          <div class="profile card2">
             <div class="img-wrapper">
               <img src="" alt="" />
               <p>Author name <span class="stars">stars here</span></p>
@@ -127,7 +135,7 @@
               exercitationem placeat.
             </p>
           </div>
-          <div class="profile-card3">
+          <div class="profile card3">
             <div class="img-wrapper">
               <img src="" alt="" />
               <p>Author name <span class="stars">stars here</span></p>
@@ -158,5 +166,6 @@
       <hr class="divider" />
       <p>All rights reserved 2023.</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
