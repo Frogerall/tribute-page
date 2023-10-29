@@ -10,4 +10,11 @@ For the Live Demo you can visit here
 
 Link: https://frogerall.github.io/tribute-page/
 
+This project is still not done and in need for some tweakings on the style and design on both Mobile and and other Breakpoints...
+
+For suggestions and comments on what i need to improve you can connect to me on my socials
+
+Email: saliticoadrian@gmail.com
+Linkedin: https://www.linkedin.com/in/nairda4/
+
 Thanks thats all 😍🎉👍
