@@ -25,7 +25,7 @@ p {
 .nav-brand a {
   text-decoration: none;
   color: rgb(3, 3, 3);
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-shadow: 0 1px 1px rgba(76, 72, 72, 0.356);
 }
 .nav-brand:hover {
@@ -82,17 +82,6 @@ p {
 img {
   max-width: 100%;
 }
-.product1,
-.product2,
-.product3,
-.review,
-.z-layout {
-  display: flex;
-  flex-direction: column;
-  padding: 1em;
-  gap: 0.625rem;
-  margin-bottom: 1em;
-}
 .hero-section {
   display: flex;
   flex-direction: column-reverse;
@@ -124,19 +113,36 @@ img {
 button:hover {
   background-color: black;
 }
+.frame {
+  width: 100%;
+  height: auto;
+}
 .frame h2 {
   font-size: 1.5em;
   text-align: center;
   padding: 0.5em;
 }
-.frame {
-  width: 100%;
-  height: auto;
-}
 .product {
-  max-width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
+  padding: 1em;
+  justify-content: center;
+}
+.product1 {
+  flex: 100%;
+  display: flex;
+  flex-flow: column;
+  padding: 1em;
+  text-align: justify;
+  justify-content: space-between;
+  gap: 1em;
+}
+.product img {
+  transition: transform 0.4s;
+  width: 100%;
+}
+.product img:hover {
+  transform: scale(0.8);
 }
 .product button {
   border: none;
@@ -156,13 +162,13 @@ button:hover {
 .product button:active {
   opacity: 0.6;
 }
-figure {
+.review,
+.z-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 0.625rem;
   margin-bottom: 1em;
-  text-align: center;
-}
-figcaption {
-  font-weight: bold;
-  font-size: 1.3em;
 }
 .z-layout h2 {
   font-size: 2em;
@@ -172,6 +178,14 @@ figcaption {
   display: flex;
   flex-direction: column;
   gap: 3em;
+}
+figure {
+  margin-bottom: 1em;
+  text-align: center;
+}
+figcaption {
+  font-weight: bold;
+  font-size: 1.3em;
 }
 .banner {
   display: flex;
@@ -186,8 +200,63 @@ figcaption {
   width: 25%;
   padding: 25px;
 }
+.article-footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 2em;
+  width: 90%;
+  margin: 1em auto;
+}
+.article-section h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+}
+article h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.review h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 0;
+}
+.content-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.profile h3,
+.stars {
+  text-align: center;
+}
 footer {
   background-color: rgb(241, 218, 10);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head,
+.contact-form {
+  display: none;
+}
+.contact-form {
+  flex-direction: row;
+  justify-content: center;
+}
+.quick-link ul {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 footer ul {
   display: flex;
@@ -197,7 +266,6 @@ footer ul {
 }
 footer li {
   margin-right: 5px;
-  border-right: 1px solid rgb(148, 145, 145);
   padding-right: 5px;
 }
 footer p {
@@ -216,37 +284,14 @@ footer p {
   height: 1px;
   margin: 1.5em auto;
 }
-.article-footer {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.contact-form {
-  flex-direction: row;
-  justify-content: center;
-}
-.article-section h1 {
-  font-size: 2em;
-  text-align: center;
-  padding: 1em;
-}
-article {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  gap: 2em;
-  width: 90%;
-  margin: 1em auto;
-}
-article h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-}
-.review h1 {
-  font-size: 2em;
-  text-align: center;
-  padding: 1em 0;
+@media (min-width: 600px) {
+  .product1 {
+    flex: 0 1 50%;
+  }
+  .profile {
+    flex: 0 1 50%;
+    padding: 1em;
+  }
 }
 @media (min-width: 768px) {
   .nav-menu {
@@ -273,7 +318,6 @@ article h2 {
   .hero-wrap {
     flex-direction: row;
   }
-
   .info1,
   .info2,
   .info3 {
@@ -308,14 +352,8 @@ article h2 {
     width: 100%;
     height: auto;
   }
-  .product {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    padding: 1em 2em;
-  }
-  .product-info p {
-    font-size: 20px;
+  .product1 {
+    flex: 0 1 33.3%;
   }
   .article-section h1 {
     font-size: 2em;
@@ -337,35 +375,16 @@ article h2 {
   .article-footer {
     flex-direction: row;
   }
-
   .frame h2 {
     font-size: 2em;
-  }
-  .nav-brand {
-    font-size: 1.8em;
   }
   .nav-menu a {
     color: black;
     font-size: 18px;
     font-weight: 600;
   }
-  .navbar {
-    transition: opacity 0.3s;
-  }
-  .navbar:hover {
-    opacity: 0.9;
-  }
-  .product img {
-    transition: transform 0.4s;
-  }
-  .product img:hover {
-    transform: scale(0.8);
-  }
-
-  .content-wrap {
-    display: flex;
-    padding: 2em;
-    gap: 1em;
+  .profile {
+    flex: 33%;
   }
   .img-wrapper {
     width: 50%;
@@ -383,18 +402,6 @@ article h2 {
     justify-content: space-around;
     padding: 3em;
     font-size: 20px;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .quick-link ul {
-    display: flex;
-    flex-direction: column;
-  }
-  .quick-link li {
-    border: none;
   }
   .contact-form {
     display: flex;
