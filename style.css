@@ -72,7 +72,6 @@ p {
 }
 .open {
   transform: translateX(0);
-  transform: ;
 }
 .hide {
   color: white;
