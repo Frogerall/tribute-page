@@ -181,6 +181,7 @@ button:hover {
   margin: 0 auto;
   transition: all 0.3s;
   font-weight: bold;
+  border: 3px black solid;
 }
 .product button:hover {
   background-color: black;
@@ -487,5 +488,6 @@ hr {
   }
   input {
     text-align: center;
+    outline: 2px solid black;
   }
 }
