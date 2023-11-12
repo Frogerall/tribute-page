@@ -6,9 +6,11 @@
 
 ### Screenshot
 
-![Sunbee Cooking Oil](images/desktop.jpeg)
-![Sunbee Cooking Oil](images/tablet.jpeg)
-![Sunbee Cooking Oil](images/mobile.jpeg)
+![Sunbee Cooking Oil ](images/desktop.jpeg)
+
+### Live Demo
+
+Explore the live demo [here](https://frogerall.github.io/tribute-page/).
 
 ## Description
 
@@ -52,10 +54,6 @@ To run the project, follow these steps after forking:
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Live Demo
-
-Explore the live demo [here](https://frogerall.github.io/tribute-page/).
 
 ## Future Plans
 
