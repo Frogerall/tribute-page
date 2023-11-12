@@ -4,6 +4,12 @@
 
 <h1 align="center">Sunbee Cooking Oil Landing Page</h1>
 
+### Screenshot
+
+![Sunbee Cooking Oil](images/desktop.jpeg)
+![Sunbee Cooking Oil](images/tablet.jpeg)
+![Sunbee Cooking Oil](images/mobile.jpeg)
+
 ## Description
 
 This is landing page for a cooking oil company. This is also my practical project on making real world applications/website.
@@ -47,6 +53,10 @@ To run the project, follow these steps after forking:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Live Demo
+
+Explore the live demo [here](https://frogerall.github.io/tribute-page/).
+
 ## Future Plans
 
 - Add to cart functionality
@@ -71,8 +81,8 @@ If you encounter common problems or issues while using this project you can dire
 You can reach out to me for suggestions, comments, or just to chat:
 
 - Adrian Salitico
-  - [GitHub](https://github.com/frogerall)
-  - [LinkedIn](https://linkedin.com/in/nairda4)
+  - GitHub: https://github.com/frogerall
+  - LinkedIn: https://linkedin.com/in/nairda4
   - Email: saliticoadrian@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
