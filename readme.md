@@ -2,7 +2,7 @@
 
 # Project Title
 
-<h1 align="center">Sunbee Cooking Oil Landing Page</h1>
+<h1 align="center">Sunbee Cooking Oil Responsive Landing Page</h1>
 
 ### Screenshot
 
