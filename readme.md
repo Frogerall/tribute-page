@@ -1,20 +1,78 @@
-#tribute-page
+<a name="readme-top"></a>
 
-This is another project for me to consolidate my grasp on HTML and Css,
+# Project Title
 
-Also starting to apply what a little bit knowledge on Javascript!
+<h1 align="center">Sunbee Cooking Oil Landing Page</h1>
 
-This is a Dog E-Shop Website for now its only static with a bit of small transitions..
+## Description
 
-For the Live Demo you can visit here
+This is landing page for a cooking oil company. This is also my practical project on making real world applications/website.
 
-Link: https://frogerall.github.io/tribute-page/
+### Created with the use of the following:
 
-This project is still not done and in need for some tweakings on the style and design on both Mobile and and other Breakpoints...
+    - VS Code for the text editor.
+    - Live Server the the extension.
+    - HTML for the structure.
+    - CSS for design.
 
-For suggestions and comments on what i need to improve you can connect to me on my socials
+## Getting Started
 
-Email: saliticoadrian@gmail.com
-Linkedin: https://www.linkedin.com/in/nairda4/
+Hi wanna copy this site? Here's what you need
 
-Thanks thats all 😍🎉👍
+- a Browser any kind.
+- Text Editor or an IDE.
+- Live Server
+
+You can open the index.html using any browser. i also use live server to see the live update everytime i save when there's changes on the code.
+
+### Installing
+
+1. No additional modifications are needed; you're ready to use it! after installing it on the hosting site
+1. Follow the installation instructions based on your Hosting services.
+
+### Executing program
+
+To run the project, follow these steps after forking:
+
+1. Open your terminal or command prompt.
+2. Navigate to the directory where you want to use the project.
+3. type ```bash
+   git clone "project link"
+4. Start making commits to track changes:
+
+   ```bash
+   git add .
+   git commit -m "Your commit message here"
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Future Plans
+
+- Add to cart functionality
+- Dedicated About Page
+- Contact us Page
+- Food Recipe Page
+
+Lastly is the Article Page.
+
+## Contributions
+
+Want to contribute? sure that will be great!. You can inbox me on my Linkedin or just fork and submit a pull request it is very much appreciated 🙌.
+
+## Help
+
+If you encounter common problems or issues while using this project you can directly inbox me on my email below.
+
+## Authors
+
+**Author:**
+
+You can reach out to me for suggestions, comments, or just to chat:
+
+- Adrian Salitico
+  - [GitHub](https://github.com/frogerall)
+  - [LinkedIn](https://linkedin.com/in/nairda4)
+  - Email: saliticoadrian@gmail.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
