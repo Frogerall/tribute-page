@@ -30,6 +30,8 @@ p {
   width: 20%;
   display: flex;
   margin-left: 0.5em;
+  gap: 0.5em;
+  align-items: center;
 }
 .nav-brand img {
   border: 3px solid black;
